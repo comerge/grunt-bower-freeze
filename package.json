@@ -7,13 +7,16 @@
         "name": "Christoph Krautz",
         "email": "christoph.krautz@comerge.net"
     },
-    "contributors": [{
-        "name": "Christoph Krautz",
-        "email": "christoph.krautz@comerge.net"
-    },{
-        "name": "Michela Pedroni",
-        "email": "michela.pedroni@comerge.net"
-    }],
+    "contributors": [
+        {
+            "name": "Christoph Krautz",
+            "email": "christoph.krautz@comerge.net"
+        },
+        {
+            "name": "Michela Pedroni",
+            "email": "michela.pedroni@comerge.net"
+        }
+    ],
     "repository": {
         "type": "git",
         "url": "ssh://git@github.com:comerge/grunt-bower-freeze.git"
@@ -42,7 +45,7 @@
         "grunt-contrib-nodeunit": "^0.3.3"
     },
     "peerDependencies": {
-        "grunt": "~0.4.5"
+        "grunt": ">=0.4.0"
     },
     "keywords": [
         "gruntplugin",
